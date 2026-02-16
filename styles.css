@@ -1,0 +1,58 @@
+
+body{
+	margin: 0 auto;
+	background-color: grey;
+}
+
+nav {
+	background-color: black;
+	position: fixed;
+	width: 100%;
+	border-bottom: 2px solid darkgrey;
+	top: 0px;
+	z-index: 1;
+}
+
+
+nav ul {
+	list-style-type: none;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+nav li{
+	padding-right: 50px;
+	color:white;
+	font-size: 20px;
+}
+
+nav li:hover {
+	color: grey;
+	cursor: pointer;
+}
+
+main{
+	maring: 0 auto;
+	position: relative;
+	top: 50px;
+	text-align: center;
+}
+
+main .home p{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+footer {
+	background-color: black;
+	color: white;
+	position: relative;
+	top: 50px;
+	text-align: center;
+	padding: 3px;
+	font-size: 15px;
+	border-top: 1px solid lightgrey;
+	border-bottom: 1px solid lightgrey;
+}
