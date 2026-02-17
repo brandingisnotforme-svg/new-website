@@ -29,7 +29,7 @@ nav ul {
 @media screen and (max-width: 500px){
 	nav li {
 		color: white;
-		font-size: 18px;
+		font-size: 14px;
 	}
 }
 
