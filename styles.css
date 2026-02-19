@@ -56,15 +56,13 @@ nav li:hover {
 .container{
 	display: grid;
 	height: 100%;
-	grid-template: 1fr 1fr / 1fr 1fr;
+	grid-template: 0.5fr 0.5fr / 1fr 1fr;
 	row-gap: 20px;
-	justify-content: space-evenly;
-	
 }
 
 main .welcome-holder{
-	grid-area: 1 / 1 / 2 / 3;
-	align-content: center;
+	margin-bottom: 20px;
+	padding-top: 20px;
 }
 
 main .inner-holder{
