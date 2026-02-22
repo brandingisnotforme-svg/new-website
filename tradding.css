@@ -30,6 +30,24 @@ nav ul {
 		color: white;
 		font-size: 14px;
 	}
+	
+	.container{
+		display: grid;
+		height: 100%;
+		grid-template: 0.5fr 0.2fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.25fr 0.5fr 0.25fr 0.5fr 0.25fr 0.5fr 0.25fr / 1fr;
+		column-gap: 30px;
+		row-gap: 30px;
+	}
+	.indcators {
+		align-content: center;
+		padding-left: 5%;
+		padding-right: 5%
+	}
+	
+	.indcators-code-image {
+		align-content: center;
+	}
+	
 }
 
 
@@ -38,6 +56,28 @@ nav ul {
 		color: white;
 		font-size: 20px;
 	}
+	
+	.container{
+		display: grid;
+		height: 100%;
+		grid-template: 0.7fr 0.5fr 0.5fr 1fr 1fr 1fr / 1fr 1fr;
+		column-gap: 30px;
+	}
+	
+	.indcators {
+		align-content: center;
+		padding-left: 10%;
+		padding-right: 10%
+	}
+	
+	.indcators-code-image {
+		align-content: center;
+		padding-left: 10%;
+		padding-right: 10%
+	}
+	
+	
+	
 }
 
 
@@ -60,44 +100,32 @@ main{
 }
 
 
-
-@media screen and (max-width: 500px) {
-	
-	.container {
-		display: grid;
-		height: 100%;
-		grid-template: 1fr 1fr 1fr 1fr 1fr / 1fr;
-		justify-content: space-around;
-		row-gap: 35px;
-	}
-}
-
-@media screen and (min-width: 500px) {
-	
-	.container {
-		display: grid;
-		height: 100%;
-		grid-template: 1fr 1fr 1fr / 1fr 1fr;
-		justify-content: space-around;
-		column-gap: 65px;
-		row-gap: 65px;
-	}
-	
-	.webProject {
-		grid-area: 3 / 1 / 3 / 3;
-	}
-}
-
-main li {
-	font-size: 20px;
-	padding-top: 15px;
-}
-
-div {
+.barchart{
 	align-content: center;
-	padding-left: 1%;
-	padding-right: 1%;
+	padding-left: 10%;
+	padding-right: 10%;
 }
+
+.marketinfo{
+	align-content: center;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+
+.candlepic{
+	padding: 8%;
+}
+
+p {
+	text-align: left;
+	font-size: 20px;
+}
+
+h2 {
+	text-align: left;
+}
+
 
 img {
     width: 100%;       /* Fill the grid cell width */
@@ -125,10 +153,6 @@ img {
 	padding-right: 3%;
 }
 
-.webProject {
-	background-color: rgb(58, 58, 58);
-	border-radius: 15px;
-}
 
 /* Code generator from Microsoft Co-Pilot */
 ul {

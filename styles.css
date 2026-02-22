@@ -62,6 +62,7 @@ nav li:hover {
 main .welcome-holder{
 	margin-bottom: 20px;
 	padding-top: 20px;
+	font-size: 20px;
 }
 
 button {
@@ -86,6 +87,7 @@ main .inner-holder{
 	padding-top: 5px;
 	padding-bottom: 20px;
 	border-radius: 20px;
+	font-size: 20px;
 }
 
 main .welcome-inner-holder{

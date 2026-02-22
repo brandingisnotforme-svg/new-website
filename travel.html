@@ -15,7 +15,7 @@
 				<li> <a href="index.html"> Home </a> </li>
 				<li> <a href="coding.html"> Programming </a> </li>
 				<li> <a href="travel.html"> Travel </a> </li>
-				<li> <a href="#trading"> Trading </a> </li>
+				<li> <a href="tradding.html"> Trading </a> </li>
 				<li> <a href="#about"> About </a> </li>
 			</ul>
 		</nav>
@@ -26,12 +26,12 @@
 			<script>
 			  // Save scroll position before leaving the page
 			  window.addEventListener("beforeunload", function () {
-			    localStorage.setItem("scrollPosition", window.scrollY);
+			    localStorage.setItem("travelScrollPosition", window.scrollY);
 			  });
 
 			  // Restore scroll position when coming back
 			  window.addEventListener("load", function () {
-			    const scrollPosition = localStorage.getItem("scrollPosition");
+			    const scrollPosition = localStorage.getItem("travelScrollPosition");
 			    if (scrollPosition) {
 			      window.scrollTo(0, parseInt(scrollPosition, 10));
 			    }
